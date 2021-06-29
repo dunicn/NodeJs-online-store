@@ -5,6 +5,7 @@ exports.getAddProduct = (req, res, next) => {
   res.render('../views/admin/add-product.ejs', {
     pageTitle: 'Add Product',
     path: '/admin/add-product',
+    formsCSS: true,
     productsCss: true,
     activeProduct: true,
   });
