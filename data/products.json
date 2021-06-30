@@ -1,16 +1,1 @@
-[
-  {
-    "id": "234254",
-    "title": "Test Book",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Question_book-new.svg/1280px-Question_book-new.svg.png",
-    "description": "This is a test book",
-    "price": "20"
-  },
-  {
-    "title": "Test Product 1",
-    "imageUrl": "https://www.pngarts.com/files/2/Book-PNG-Download-Image.png",
-    "description": "Description of a Test product 1",
-    "price": "25.99",
-    "id": "0.5438272667777655"
-  }
-]
+[{"id":"0.058141179900534024","title":"Book 1","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Question_book-new.svg/1280px-Question_book-new.svg.png","description":"This is just an example","price":"22"},{"id":"0.8774246841221163","title":"title 23","imageUrl":"https://www.pngarts.com/files/2/Book-PNG-Download-Image.png","description":"asdasdads","price":"6"}]
