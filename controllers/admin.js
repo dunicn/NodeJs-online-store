@@ -1,7 +1,9 @@
 const Product = require('../models/product');
 
 exports.getAddProduct = (req, res, next) => {
-  // console.log('In the first middleware');
+  if (!req.session.isLoggedIn) {
+    return res.redirect('/login');
+  }
   res.render('../views/admin/edit-product.ejs', {
     pageTitle: 'Add Product',
     path: '/admin/add-product',
@@ -25,7 +27,6 @@ exports.postAddProduct = (req, res, next) => {
   product
     .save()
     .then((result) => {
-      // console.log(result);
       console.log('Created product');
       res.redirect('/admin/products');
     })
