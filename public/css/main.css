@@ -19,8 +19,9 @@ form {
   display: inline;
 }
 
-.image {
+img {
   height: 20rem;
+  padding: 1rem;
 }
 
 .image img {
