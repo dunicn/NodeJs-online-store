@@ -22,7 +22,11 @@ router.get('/orders', isAuth, shopController.getOrders);
 
 router.get('/checkout', isAuth, shopController.getCheckout);
 
-router.post('/create-order', isAuth, shopController.postOrder);
+router.get('/checkout/success', shopController.getCheckoutSuccess);
+
+router.get('/checkout/cancel', shopController.getCheckout);
+
+// router.post('/create-order', isAuth, shopController.postOrder);
 
 router.get('/orders/:orderId', isAuth, shopController.getInvoice);
 
